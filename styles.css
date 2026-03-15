@@ -1353,7 +1353,22 @@ button:focus-visible {
 
   .navbar__link--cta {
     text-align: center;
-    margin-top: var(--space-md);
+    margin-top: 0;
+    order: 99;
+  }
+
+  .lang-switcher {
+    order: 98;
+    margin-top: auto;
+  }
+
+  .lang-dropdown {
+    position: static;
+    box-shadow: none;
+    border: none;
+    background: rgba(255,255,255,0.04);
+    border-radius: var(--radius-md);
+    margin-top: var(--space-sm);
   }
 
   /* Hamburger animation */
